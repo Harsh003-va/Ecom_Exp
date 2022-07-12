@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+<style>
+    #borderimg{
+      
+        border: 10px solid transparent;
+        padding: 14px;
+        border-color:  #7700ff;
+        text-align: center;
+    }
+  
+       .header {
+           background-color: rgb(35, 120, 248);
+           padding: 15px;
+           text-align: center;
+         
+
+       }
+        
+    
+       .nav_menu {
+           overflow: hidden;
+           background-color: #333;
+       }
+       .nav_menu a {
+           float: left;
+           display: block;
+           color: white;
+           text-align: center;
+           padding: 12px 17px;
+           text-decoration: none;
+       }
+       .nav_menu a:hover {
+           background-color: white;
+           color: rgb(42, 238, 245);
+       }
+      </style>
+<body>
+    <div class = "header">
+        <img src="C:\Users\STUDENT\Desktop\My project\boat.gif" width="80" >
+          <h2 style = "color:rgb(255, 255, 255);font-size:200%;" >
+        Boat
+          </h2>
+          
+      </div>
+      <div class = "nav_menu">
+        <h2><a href="./About.html">About </a></h2>
+        <h2><a href="./Products.html">Products</a></h2>
+        
+      
+        <h2><a href="./contact.html">contacts</a></h2>
+        <h3><a href="./login.html">Register/Login</a></h3>
+        <h2><a href="#">Logout</a></h2>
+        <br>
+        </div>
+        <br>
+        <Center><h1>REGISTRATION</h1></center>
+<center>
+<form name="registration" method="POST" action="registration.php">
+<!-- we will create registration.php after registration.html -->
+USERNAME:<input type="text" name="name" value=""></br>
+<br>
+EMAIL-ID:<input type="text" name="email" value=""></br>
+<br>
+PASSWORD:<input type="text" name="password" value=""></br>
+<br>
+RE-PASSWORD:<input type="text" name="repassword" value=""></br>
+<br>
+<input type="submit" name="submit" value="submit">
+</form>
+</center>
+</body>
+</head>
+</html>
